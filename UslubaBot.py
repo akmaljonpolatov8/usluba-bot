@@ -6,10 +6,10 @@ from telegram.ext import (
     ContextTypes,
     filters
 )
-import random
+import os
 
-# 🔑 TOKEN (BotFather'dan olgan tokeningni qo‘y)
-TOKEN = "BOT_TOKEN"
+TOKEN = os.getenv("BOT_TOKEN")
+
 
 # 🎲 TRICKLAR (sening berganlaring)
 TRICKS = [
