@@ -1,0 +1,28 @@
+[Unit]
+Description=🤖 Usluba Bot - Telegram Bot Service
+Documentation=https://telegram.org
+After=network.target
+
+[Service]
+Type=simple
+User=usluba
+WorkingDirectory=/home/usluba/usluba_bot
+ExecStart=/usr/bin/python3 /home/usluba/usluba_bot/UslubaBot.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=usluba-bot
+Environment="PATH=/home/usluba/usluba_bot/venv/bin"
+
+# Graceful shutdown
+KillMode=mixed
+KillSignal=SIGTERM
+TimeoutStopSec=30
+
+# Resource limits
+MemoryLimit=200M
+CPUQuota=50%
+
+[Install]
+WantedBy=multi-user.target

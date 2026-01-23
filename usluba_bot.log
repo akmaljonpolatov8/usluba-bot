@@ -1,0 +1,78 @@
+2026-01-23 09:46:33,524 - __main__ - INFO - 🤖 USLUBA BOT BOSHLANMOQDA...
+2026-01-23 09:46:33,527 - __main__ - INFO - 🚀 USLUBA BOT ISHGA TUSHMOQDA...
+2026-01-23 09:46:33,529 - __main__ - INFO - ⏰ Vaqti: 2026-01-23 09:46:33
+2026-01-23 09:46:33,530 - __main__ - CRITICAL - ❌ BOT_TOKEN belgilanmagan! .env faylni tekshiring.
+2026-01-23 09:48:49,143 - __main__ - INFO - 🤖 USLUBA BOT BOSHLANMOQDA...
+2026-01-23 09:48:49,145 - __main__ - INFO - 🚀 USLUBA BOT ISHGA TUSHMOQDA...
+2026-01-23 09:48:49,146 - __main__ - INFO - ⏰ Vaqti: 2026-01-23 09:48:49
+2026-01-23 09:48:49,147 - __main__ - CRITICAL - ❌ BOT_TOKEN belgilanmagan! .env faylni tekshiring.
+2026-01-23 09:54:03,493 - __main__ - INFO - 🤖 USLUBA BOT BOSHLANMOQDA...
+2026-01-23 09:54:03,497 - __main__ - INFO - 🚀 USLUBA BOT ISHGA TUSHMOQDA...
+2026-01-23 09:54:03,498 - __main__ - INFO - ⏰ Vaqti: 2026-01-23 09:54:03
+2026-01-23 09:54:03,498 - __main__ - CRITICAL - ❌ BOT_TOKEN belgilanmagan! .env faylni tekshiring.
+2026-01-23 10:00:16,979 - __main__ - INFO - 🤖 USLUBA BOT BOSHLANMOQDA...
+2026-01-23 10:00:16,988 - __main__ - INFO - 🚀 USLUBA BOT ISHGA TUSHMOQDA...
+2026-01-23 10:00:16,989 - __main__ - INFO - ⏰ Vaqti: 2026-01-23 10:00:16
+2026-01-23 10:00:18,384 - __main__ - CRITICAL - ❌ KRITIK XATOLIK: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+Traceback (most recent call last):
+  File "/mnt/c/Users/Akmaljon/OneDrive/Рабочий стол/Usluba_bot/UslubaBot_improved.py", line 266, in main
+    app = Application.builder().token(TOKEN).build()
+  File "/mnt/c/Users/Akmaljon/OneDrive/Рабочий стол/Usluba_bot/venv/lib/python3.13/site-packages/telegram/ext/_applicationbuilder.py", line 312, in build
+    updater = Updater(bot=bot, update_queue=update_queue)
+  File "/mnt/c/Users/Akmaljon/OneDrive/Рабочий стол/Usluba_bot/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 128, in __init__
+    self.__polling_cleanup_cb: Optional[Callable[[], Coroutine[Any, Any, None]]] = None
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2026-01-23 10:01:47,242 - __main__ - INFO - 🤖 USLUBA BOT BOSHLANMOQDA...
+2026-01-23 10:01:47,248 - __main__ - INFO - 🚀 USLUBA BOT ISHGA TUSHMOQDA...
+2026-01-23 10:01:47,250 - __main__ - INFO - ⏰ Vaqti: 2026-01-23 10:01:47
+2026-01-23 10:01:48,129 - __main__ - CRITICAL - ❌ KRITIK XATOLIK: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+Traceback (most recent call last):
+  File "/mnt/c/Users/Akmaljon/OneDrive/Рабочий стол/Usluba_bot/UslubaBot_improved.py", line 266, in main
+    app = Application.builder().token(TOKEN).build()
+  File "/mnt/c/Users/Akmaljon/OneDrive/Рабочий стол/Usluba_bot/venv/lib/python3.13/site-packages/telegram/ext/_applicationbuilder.py", line 312, in build
+    updater = Updater(bot=bot, update_queue=update_queue)
+  File "/mnt/c/Users/Akmaljon/OneDrive/Рабочий стол/Usluba_bot/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 128, in __init__
+    self.__polling_cleanup_cb: Optional[Callable[[], Coroutine[Any, Any, None]]] = None
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2026-01-23 10:05:22,390 - __main__ - INFO - 🤖 USLUBA BOT BOSHLANMOQDA...
+2026-01-23 10:05:22,393 - __main__ - INFO - 🚀 USLUBA BOT ISHGA TUSHMOQDA...
+2026-01-23 10:05:22,394 - __main__ - INFO - ⏰ Vaqti: 2026-01-23 10:05:22
+2026-01-23 10:05:23,263 - __main__ - CRITICAL - ❌ KRITIK XATOLIK: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+Traceback (most recent call last):
+  File "/mnt/c/Users/Akmaljon/OneDrive/Рабочий стол/Usluba_bot/UslubaBot_improved.py", line 267, in main
+    app = Application.builder().token(TOKEN).build()
+  File "/mnt/c/Users/Akmaljon/OneDrive/Рабочий стол/Usluba_bot/venv/lib/python3.13/site-packages/telegram/ext/_applicationbuilder.py", line 312, in build
+    updater = Updater(bot=bot, update_queue=update_queue)
+  File "/mnt/c/Users/Akmaljon/OneDrive/Рабочий стол/Usluba_bot/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 128, in __init__
+    self.__polling_cleanup_cb: Optional[Callable[[], Coroutine[Any, Any, None]]] = None
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2026-01-23 10:06:18,573 - __main__ - INFO - 🤖 USLUBA BOT BOSHLANMOQDA...
+2026-01-23 10:06:18,576 - __main__ - INFO - 🚀 USLUBA BOT ISHGA TUSHMOQDA...
+2026-01-23 10:06:18,578 - __main__ - INFO - ⏰ Vaqti: 2026-01-23 10:06:18
+2026-01-23 10:06:19,762 - __main__ - CRITICAL - ❌ KRITIK XATOLIK: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+Traceback (most recent call last):
+  File "/mnt/c/Users/Akmaljon/OneDrive/Рабочий стол/Usluba_bot/UslubaBot_improved.py", line 267, in main
+    app = Application.builder().token(TOKEN).build()
+  File "/mnt/c/Users/Akmaljon/OneDrive/Рабочий стол/Usluba_bot/venv/lib/python3.13/site-packages/telegram/ext/_applicationbuilder.py", line 312, in build
+    updater = Updater(bot=bot, update_queue=update_queue)
+  File "/mnt/c/Users/Akmaljon/OneDrive/Рабочий стол/Usluba_bot/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 128, in __init__
+    self.__polling_cleanup_cb: Optional[Callable[[], Coroutine[Any, Any, None]]] = None
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2026-01-23 15:21:53,972 - __main__ - INFO - 🤖 USLUBA BOT BOSHLANMOQDA...
+2026-01-23 15:21:53,973 - __main__ - INFO - 🚀 USLUBA BOT ISHGA TUSHMOQDA...
+2026-01-23 15:21:54,171 - __main__ - CRITICAL - ❌ Boshlanishda xatolik: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2026-01-23 15:26:51,997 - __main__ - INFO - 🤖 USLUBA BOT BOSHLANMOQDA...
+2026-01-23 15:26:51,999 - __main__ - INFO - 🚀 USLUBA BOT ISHGA TUSHMOQDA...
+2026-01-23 15:26:52,157 - __main__ - INFO - 📡 Polling rejimida ishlayabdi...
+2026-01-23 15:26:52,157 - __main__ - INFO - ✅ Bot ishga tushgan!
+2026-01-23 15:26:53,361 - telegram.ext._application - INFO - Application started
+2026-01-23 15:29:07,861 - __main__ - INFO - 👤 New user started: 2059903824 (.)
+2026-01-23 15:29:21,879 - __main__ - INFO - 📖 Help requested by 2059903824
+2026-01-23 15:29:33,243 - __main__ - INFO - 🎲 Trick requested by user 2059903824
+2026-01-23 15:29:46,676 - __main__ - INFO - ⚽ Formation requested by user 2059903824
+2026-01-23 15:29:58,255 - __main__ - INFO - 📖 Help requested by 2059903824
+2026-01-23 15:30:03,768 - __main__ - INFO - 📖 Help requested by 2059903824
